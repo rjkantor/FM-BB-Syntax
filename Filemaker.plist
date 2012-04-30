@@ -316,6 +316,7 @@
 		<key>Open Block Comments</key>      <string>/*</string>
 		<key>Close Block Comments</key>     <string>*/</string>
 		<key>Open Line Comments</key>       <string>#</string>
+		<key>Open Line Comments</key>       <string>//</string>
 		<key>Open Strings 1</key>           <string>"</string>
 		<key>Close Strings 1</key>          <string>"</string>
 		<key>Escape Char in Strings 1</key> <string>\</string>
