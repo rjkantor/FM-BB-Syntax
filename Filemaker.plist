@@ -13,6 +13,15 @@
 	
 	<!-- You must identify your language: -->
 	<key>BBLMLanguageDisplayName</key>  <string>Filemaker</string>
+	<key>BBLMScansFunctions</key> 
+	<true/> 
+	<key>BBLMSuffixMap</key> 
+	<array> 
+		<dict> 
+			<key>BBLMLanguageSuffix</key> 
+			<string><![CDATA[.fmfn]]></string> 
+		</dict> 
+	</array> 
 	<key>BBLMLanguageCode</key>         <string>FMFN</string>
 	
 	<!-- Not required, but there’s not much point to
@@ -307,9 +316,9 @@
 		<key>Open Block Comments</key>      <string>/*</string>
 		<key>Close Block Comments</key>     <string>*/</string>
 		<key>Open Line Comments</key>       <string>#</string>
-		<key>Open Strings 1</key>               <string>"</string>
-		<key>Close Strings 1</key>              <string>"</string>
-		<key>Escape Char in Strings 1</key>     <string>\</string>
+		<key>Open Strings 1</key>           <string>"</string>
+		<key>Close Strings 1</key>          <string>"</string>
+		<key>Escape Char in Strings 1</key> <string>\</string>
 		<key>End-of-line Ends Strings 1</key>   <false/>
 		<key>Open Statement Blocks</key>    <string>(</string>
 		<key>Close Statement Blocks</key>   <string>)</string>
