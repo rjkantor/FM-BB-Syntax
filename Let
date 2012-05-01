@@ -1,0 +1,1 @@
+﻿Let ( {[}  #selstart#var1#selend# =  #selstart#expression1#selend# {;  #selstart#var2#selend# =  #selstart#expression2#selend#...]} ;  #selstart#calculation#selend# ) 

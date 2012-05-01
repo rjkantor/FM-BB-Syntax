@@ -1,0 +1,1 @@
+﻿Case (  #selstart#test1#selend# ;  #selstart#result1#selend# {;  #selstart#test2#selend# ;  #selstart#result2#selend# ; ... ;  #selstart#defaultResult#selend#} ) 

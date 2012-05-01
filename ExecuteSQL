@@ -1,0 +1,1 @@
+﻿ExecuteSQL (  #selstart#sqlQuery#selend# ;  #selstart#fieldSeparator#selend# ;  #selstart#rowSeparator#selend# { ;  #selstart#arguments#selend#... } ) 
