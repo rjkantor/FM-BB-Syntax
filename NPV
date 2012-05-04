@@ -1,0 +1,1 @@
+﻿NPV ( #selstart#payment#selend# ; #selstart#interestRate#selend# )

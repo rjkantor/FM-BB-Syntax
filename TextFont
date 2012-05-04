@@ -1,0 +1,1 @@
+﻿TextFont ( #selstart#text#selend# ; #selstart#fontName#selend# {; #selstart#fontScript#selend#} )
