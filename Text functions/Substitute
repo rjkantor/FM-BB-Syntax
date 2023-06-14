@@ -1,0 +1,1 @@
+Substitute ( #selstart#text#selend# ; #selstart#searchString#selend# ; #selstart#replaceString#selend# )

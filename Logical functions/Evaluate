@@ -1,0 +1,1 @@
+Evaluate ( #selstart#expression#selend# #selstart#{; [field1 ; field2 ;...]}#selend# )

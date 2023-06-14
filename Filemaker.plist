@@ -5,29 +5,29 @@
 
 <!--  The smallest CLM that will color keywords.
       Copyright (c) 2012 Bare Bones Software, Inc. -->
-		
+
 <dict>
 	<!-- You must identify the plist as a CLM: -->
 	<key>BBEditDocumentType</key>
 	<string>CodelessLanguageModule</string>
-	
+
 	<!-- You must identify your language: -->
 	<key>BBLMLanguageDisplayName</key>  <string>Filemaker</string>
-	<key>BBLMScansFunctions</key> 
-	<true/> 
-	<key>BBLMSuffixMap</key> 
-	<array> 
-		<dict> 
-			<key>BBLMLanguageSuffix</key> 
-			<string><![CDATA[.fmfn]]></string> 
-		</dict> 
-	</array> 
+	<key>BBLMScansFunctions</key>
+	<true/>
+	<key>BBLMSuffixMap</key>
+	<array>
+		<dict>
+			<key>BBLMLanguageSuffix</key>
+			<string><![CDATA[.fmfn]]></string>
+		</dict>
+	</array>
 	<key>BBLMLanguageCode</key>         <string>FMFN</string>
-	
+
 	<!-- Not required, but there’s not much point to
 	     a language module if it doesn’t color syntax: -->
 	<key>BBLMColorsSyntax</key>         <true/>
-	
+
 	<!-- Specify some keywords. This isn’t required, either,
              but it provides something to color: -->
 	<key>BBLMKeywordList</key>
@@ -42,23 +42,40 @@
 		<string>Sum</string>
 		<string>Variance</string>
 		<string>VarianceP</string>
+		<string>Base64Decode</string>
+		<string>Base64Encode</string>
+		<string>Base64EncodeRFC</string>
+		<string>CryptAuthCode</string>
+		<string>CryptDecrypt</string>
+		<string>CryptDecryptBase64</string>
+		<string>CryptDigest</string>
+		<string>CryptEncrypt</string>
+		<string>CryptEncryptBase64</string>
+		<string>CryptGenerateSignature</string>
+		<string>CryptVerifySignature</string>
+		<string>GetContainerAttribute</string>
 		<string>GetHeight</string>
+		<string>GetLiveText</string>
 		<string>GetThumbnail</string>
 		<string>GetWidth</string>
+		<string>HexDecode</string>
+		<string>HexEncode</string>
+		<string>ReadQRCode</string>
+		<string>TextDecode</string>
+		<string>TextEncode</string>
 		<string>VerifyContainer</string>
 		<string>Date</string>
 		<string>Day</string>
 		<string>DayName</string>
-		<string>DayNameJ</string>
 		<string>DayOfWeek</string>
 		<string>DayOfYear</string>
 		<string>Month</string>
 		<string>MonthName</string>
-		<string>MonthNameJ</string>
 		<string>WeekOfYear</string>
 		<string>WeekOfYearFiscal</string>
 		<string>Year</string>
-		<string>YearName</string>
+		<string>BaseTableIDs</string>
+		<string>BaseTableNames</string>
 		<string>DatabaseNames</string>
 		<string>FieldBounds</string>
 		<string>FieldComment</string>
@@ -80,113 +97,163 @@
 		<string>ValueListItems</string>
 		<string>ValueListNames</string>
 		<string>WindowNames</string>
-		<string>External</string>
 		<string>FV</string>
 		<string>NPV</string>
 		<string>PMT</string>
 		<string>PV</string>
-		<string>Get(AccountExtendedPrivileges)</string>
-		<string>Get(AccountPrivilegeSetName)</string>
-		<string>Get(AccountName)</string>
-		<string>Get(ActiveFieldContents)</string>
-		<string>Get(ActiveFieldName)</string>
-		<string>Get(ActiveLayoutObjectName)</string>
-		<string>Get(ActivePortalRowNumber)</string>
-		<string>Get(ActiveFieldTableName)</string>
-		<string>Get(ActiveModifierKeys)</string>
-		<string>Get(ActiveRepetitionNumber)</string>
-		<string>Get(ActiveSelectionSize)</string>
-		<string>Get(ActiveSelectionStart)</string>
-		<string>Get(AllowAbortState)</string>
-		<string>Get(AllowFormattingbarState)</string>
-		<string>Get(AllowToolbarState)</string>
-		<string>Get(ApplicationLanguage)</string>
-		<string>Get(ApplicationVersion)</string>
-		<string>Get(CalculationRepetitionNumber)</string>
-		<string>Get(ConnectionState)</string>
-		<string>Get(CurrentDate)</string>
-		<string>Get(CurrentExtendedPrivileges)</string>
-		<string>Get(CurrentHostTimestamp)</string>
-		<string>Get(CurrentPrivilegeSetName) </string>
-		<string>Get(CurrentTime)</string>
-		<string>Get(CurrentTimestamp)</string>
-		<string>Get(CustomMenuSetName) </string>
-		<string>Get(DesktopPath)</string>
-		<string>Get(DocumentsPath)</string>
-		<string>Get(DocumentsPathListing) </string>
-		<string>Get(ErrorCaptureState)</string>
-		<string>Get(FilemakerPath)</string>
-		<string>Get(FileName)</string>
-		<string>Get(FilePath)</string>
-		<string>Get(FileSize)</string>
-		<string>Get(FoundCount)</string>
-		<string>Get(HighContrastColor)</string>
-		<string>Get(HighContrastState) </string>
-		<string>Get(HostApplicationVersion)</string>
-		<string>Get(HostIPAddress) </string>
-		<string>Get(HostName) </string>
-		<string>Get(InstalledFMPlugins)</string>
-		<string>Get(LastError)</string>
-		<string>Get(LastMessageChoice)</string>
-		<string>Get(LastODBCError)</string>
-		<string>Get(LayoutAccess)</string>
-		<string>Get(LayoutCount)</string>
-		<string>Get(LayoutName)</string>
-		<string>Get(LayoutNumber)</string>
-		<string>Get(LayoutTableName)</string>
-		<string>Get(LayoutViewState) </string>
-		<string>Get(MultiUserState) </string>
-		<string>Get(NetworkProtocol)</string>
-		<string>Get(PageNumber)</string>
-		<string>Get(PersistentID) </string>
-		<string>Get(PreferencesPath) </string>
-		<string>Get(PrinterName) </string>
-		<string>Get(QuickFindText)</string>
-		<string>Get(RecordAccess) </string>
-		<string>Get(RecordID) </string>
-		<string>Get(RecordModificationCount) </string>
-		<string>Get(RecordNumber)</string>
-		<string>Get(RecordOpenCount) </string>
-		<string>Get(RecordOpenState) </string>
-		<string>Get(RequestCount) </string>
-		<string>Get(RequestOmitState)</string>
-		<string>Get(ScreenDepth) </string>
-		<string>Get(ScreenHeight) </string>
-		<string>Get(ScreenWidth) </string>
-		<string>Get(ScriptName) </string>
-		<string>Get(ScriptParameter)</string>
-		<string>Get(ScriptResult) </string>
-		<string>Get(SortState) </string>
-		<string>Get(StatusAreaState) </string>
-		<string>Get(SystemDrive)</string>
-		<string>Get(SystemIPAddress) </string>
-		<string>Get(SystemLanguage)</string>
-		<string>Get(SystemNICAddress)</string>
-		<string>Get(SystemPlatform) </string>
-		<string>Get(SystemVersion) </string>
-		<string>Get(TemporaryPath)</string>
-		<string>Get(TextRulerVisible) </string>
-		<string>Get(TotalRecordCount) </string>
-		<string>Get(TriggerCurrentTabPanel)</string>
-		<string>Get(TriggerKeystroke) </string>
-		<string>Get(TriggerModifierKeys) </string>
-		<string>Get(TriggerTargetTabPanel)</string>
-		<string>Get(UserCount) </string>
-		<string>Get(UserName) </string>
-		<string>Get(UseSystemFormatsState) </string>
-		<string>Get(UUID) </string>
-		<string>Get(WindowContentHeight) </string>
-		<string>Get(WindowContentWidth)</string>
-		<string>Get(WindowDesktopHeight) </string>
-		<string>Get(WindowDesktopWidth) </string>
-		<string>Get(WindowHeight) </string>
-		<string>Get(WindowLeft) </string>
-		<string>Get(WindowMode) </string>
-		<string>Get(WindowName) </string>
-		<string>Get(WindowTop)</string>
-		<string>Get(WindowVisible) </string>
-		<string>Get(WindowWidth) </string>
-		<string>Get(WindowZoomLevel) </string>
+		<string>Get( AccountExtendedPrivileges )</string>
+		<string>Get( AccountGroupName )</string>
+		<string>Get( AccountName )</string>
+		<string>Get( AccountPrivilegeSetName )</string>
+		<string>Get( AccountType )</string>
+		<string>Get( ActiveFieldContents )</string>
+		<string>Get( ActiveFieldName )</string>
+		<string>Get( ActiveFieldTableName )</string>
+		<string>Get( ActiveLayoutObjectName )</string>
+		<string>Get( ActiveModifierKeys )</string>
+		<string>Get( ActivePortalRowNumber )</string>
+		<string>Get( ActiveRecordNumber )</string>
+		<string>Get( ActiveRepetitionNumber )</string>
+		<string>Get( ActiveSelectionSize )</string>
+		<string>Get( ActiveSelectionStart )</string>
+		<string>Get( AllowAbortState )</string>
+		<string>Get( AllowFormattingBarState )</string>
+		<string>Get( ApplicationArchitecture )</string>
+		<string>Get( ApplicationLanguage )</string>
+		<string>Get( ApplicationVersion )</string>
+		<string>Get( CalculationRepetitionNumber )</string>
+		<string>Get( ConnectionAttributes )</string>
+		<string>Get( ConnectionState )</string>
+		<string>Get( CurrentDate )</string>
+		<string>Get( CurrentExtendedPrivileges )</string>
+		<string>Get( CurrentHostTimestamp )</string>
+		<string>Get( CurrentPrivilegeSetName )</string>
+		<string>Get( CurrentTime )</string>
+		<string>Get( CurrentTimestamp )</string>
+		<string>Get( CurrentTimeUTCMilliseconds )</string>
+		<string>Get( CustomMenuSetName )</string>
+		<string>Get( DesktopPath )</string>
+		<string>Get( Device )</string>
+		<string>Get( DocumentsPath )</string>
+		<string>Get( DocumentsPathListing )</string>
+		<string>Get( EncryptionState )</string>
+		<string>Get( ErrorCaptureState )</string>
+		<string>Get( FileMakerPath )</string>
+		<string>Get( FileName )</string>
+		<string>Get( FilePath )</string>
+		<string>Get( FileSize )</string>
+		<string>Get( FoundCount )</string>
+		<string>Get( HighContrastColor )</string>
+		<string>Get( HighContrastState )</string>
+		<string>Get( HostApplicationVersion )</string>
+		<string>Get( HostIPAddress )</string>
+		<string>Get( HostName )</string>
+		<string>Get( InstalledFMPlugins )</string>
+		<string>Get( LastError )</string>
+		<string>Get( LastExternalErrorDetail )</string>
+		<string>Get( LastMessageChoice )</string>
+		<string>Get( LayoutAccess )</string>
+		<string>Get( LayoutCount )</string>
+		<string>Get( LayoutName )</string>
+		<string>Get( LayoutNumber )</string>
+		<string>Get( LayoutTableName )</string>
+		<string>Get( LayoutViewState )</string>
+		<string>Get( MenubarState )</string>
+		<string>Get( ModifiedFields )</string>
+		<string>Get( MultiUserState )</string>
+		<string>Get( NetworkProtocol )</string>
+		<string>Get( NetworkType )</string>
+		<string>Get( OpenDataFileInfo )</string>
+		<string>Get( PageNumber )</string>
+		<string>Get( PersistentID )</string>
+		<string>Get( PreferencesPath )</string>
+		<string>Get( PrinterName )</string>
+		<string>Get( QuickFindText )</string>
+		<string>Get( RecordAccess )</string>
+		<string>Get( RecordID )</string>
+		<string>Get( RecordModificationCount )</string>
+		<string>Get( RecordNumber )</string>
+		<string>Get( RecordOpenCount )</string>
+		<string>Get( RecordOpenState )</string>
+		<string>Get( RegionMonitorEvents )</string>
+		<string>Get( RequestCount )</string>
+		<string>Get( RequestOmitState )</string>
+		<string>Get( ScreenDepth )</string>
+		<string>Get( ScreenHeight )</string>
+		<string>Get( ScreenScaleFactor )</string>
+		<string>Get( ScreenWidth )</string>
+		<string>Get( ScriptAnimationState )</string>
+		<string>Get( ScriptName )</string>
+		<string>Get( ScriptParameter )</string>
+		<string>Get( ScriptResult )</string>
+		<string>Get( SortState )</string>
+		<string>Get( StatusAreaState )</string>
+		<string>Get( SystemDrive )</string>
+		<string>Get( SystemIPAddress )</string>
+		<string>Get( SystemLanguage )</string>
+		<string>Get( SystemNICAddress )</string>
+		<string>Get( SystemPlatform )</string>
+		<string>Get( SystemVersion )</string>
+		<string>Get( TemporaryPath )</string>
+		<string>Get( TextRulerVisible )</string>
+		<string>Get( TotalRecordCount )</string>
+		<string>Get( TouchKeyboardState )</string>
+		<string>Get( TriggerCurrentPanel )</string>
+		<string>Get( TriggerExternalEvent )</string>
+		<string>Get( TriggerGestureInfo )</string>
+		<string>Get( TriggerKeystroke )</string>
+		<string>Get( TriggerModifierKeys )</string>
+		<string>Get( TriggerTargetPanel )</string>
+		<string>Get( UserCount )</string>
+		<string>Get( UserName )</string>
+		<string>Get( UseSystemFormatsState )</string>
+		<string>Get( UUID )</string>
+		<string>Get( UUIDNumber )</string>
+		<string>Get( WindowContentHeight )</string>
+		<string>Get( WindowContentWidth )</string>
+		<string>Get( WindowDesktopHeight )</string>
+		<string>Get( WindowDesktopWidth )</string>
+		<string>Get( WindowHeight )</string>
+		<string>Get( WindowLeft )</string>
+		<string>Get( WindowMode )</string>
+		<string>Get( WindowName )</string>
+		<string>Get( WindowOrientation )</string>
+		<string>Get( WindowStyle )</string>
+		<string>Get( WindowTop )</string>
+		<string>Get( WindowVisible )</string>
+		<string>Get( WindowWidth )</string>
+		<string>Get( WindowZoomLevel )</string>
+		<string>Get( CacheFileName )</string>
+		<string>Get( CacheFilePath )</string>
+		<string>Get( CurrentTimeUTCMicroseconds )</string>
+		<string>Get( FileLocaleElements )</string>
+		<string>Get( InstalledFMPluginsAsJSON )</string>
+		<string>Get( LastErrorDetail )</string>
+		<string>Get( LastErrorLocation )</string>
+		<string>Get( PageCount )</string>
+		<string>Get( SessionIdentifier )</string>
+		<string>Get( SystemAppearance )</string>
+		<string>Get( SystemLocaleElements )</string>
+		<string>Get( TransactionOpenState )</string>
+		<string>DayNameJ</string>
+		<string>Furigana</string>
+		<string>Hiragana</string>
+		<string>KanaHankaku</string>
+		<string>KanaZenkaku</string>
+		<string>KanjiNumeral</string>
+		<string>Katakana</string>
+		<string>MonthNameJ</string>
+		<string>NumToJText</string>
+		<string>RomanHankaku</string>
+		<string>RomanZenkaku</string>
+		<string>YearName</string>
+		<string>JSONDeleteElement</string>
+		<string>JSONFormatElements</string>
+		<string>JSONGetElement</string>
+		<string>JSONGetElementType</string>
+		<string>JSONListKeys</string>
+		<string>JSONListValues</string>
+		<string>JSONSetElement</string>
 		<string>Case</string>
 		<string>Choose</string>
 		<string>Evaluate</string>
@@ -194,9 +261,8 @@
 		<string>ExecuteSQL</string>
 		<string>GetAsBoolean</string>
 		<string>GetField</string>
-		<string>GetFieldName</string>
-		<string>GetLayoutObjectAttribute</string>
-		<string>GenNthRecord</string>
+		<string>GetNthRecord</string>
+		<string>GetSummary</string>
 		<string>If</string>
 		<string>IsEmpty</string>
 		<string>IsValid</string>
@@ -205,8 +271,23 @@
 		<string>Lookup</string>
 		<string>LookupNext</string>
 		<string>Self</string>
+		<string>SetRecursion</string>
+		<string>While</string>
+		<string>ComputeModel</string>
+		<string>ConvertFromFileMakerPath</string>
+		<string>ConvertToFileMakerPath</string>
+		<string>GetAddonInfo</string>
+		<string>GetBaseTableName</string>
+		<string>GetFieldName</string>
+		<string>GetLayoutObjectAttribute</string>
+		<string>GetLayoutObjectOwnerInfo</string>
+		<string>GetModelAttributes</string>
+		<string>LayoutObjectUUID</string>
+		<string>GetAVPlayerAttribute</string>
+		<string>GetSensor</string>
 		<string>Location</string>
 		<string>LocationValues</string>
+		<string>RangeBeacons</string>
 		<string>Abs</string>
 		<string>Ceiling</string>
 		<string>Combination</string>
@@ -228,7 +309,16 @@
 		<string>Extend</string>
 		<string>GetRepetition</string>
 		<string>Last</string>
-		<string>GetSummary</string>
+		<string>RGB</string>
+		<string>TextColor</string>
+		<string>TextColorRemove</string>
+		<string>TextFont</string>
+		<string>TextFontRemove</string>
+		<string>TextFormatRemove</string>
+		<string>TextSize</string>
+		<string>TextSizeRemove</string>
+		<string>TextStyleAdd</string>
+		<string>TextStyleRemove</string>
 		<string>Char</string>
 		<string>Code</string>
 		<string>Exact</string>
@@ -243,11 +333,6 @@
 		<string>GetAsTimestamp</string>
 		<string>GetAsURLEncoded</string>
 		<string>GetValue</string>
-		<string>Hiragana</string>
-		<string>KanaHankaku</string>
-		<string>KanaZenkaku</string>
-		<string>KanjiNumeral</string>
-		<string>Katakana</string>
 		<string>Left</string>
 		<string>LeftValues</string>
 		<string>LeftWords</string>
@@ -256,7 +341,6 @@
 		<string>Middle</string>
 		<string>MiddleValues</string>
 		<string>MiddleWords</string>
-		<string>NumToJText</string>
 		<string>PatternCount</string>
 		<string>Position</string>
 		<string>Proper</string>
@@ -265,25 +349,15 @@
 		<string>Right</string>
 		<string>RightValues</string>
 		<string>RightWords</string>
-		<string>RomanHankaku</string>
-		<string>RomanZenkaku</string>
 		<string>SerialIncrement</string>
+		<string>SortValues</string>
 		<string>Substitute</string>
 		<string>Trim</string>
 		<string>TrimAll</string>
+		<string>UniqueValues</string>
 		<string>Upper</string>
 		<string>ValueCount</string>
 		<string>WordCount</string>
-		<string>RGB</string>
-		<string>TextColor</string>
-		<string>TextColorRemove</string>
-		<string>TextFont</string>
-		<string>TextFontRemove</string>
-		<string>TextFormatRemove</string>
-		<string>TextSize</string>
-		<string>TextSizeRemove</string>
-		<string>TextStyleAdd</string>
-		<string>TextStyleRemove</string>
 		<string>Hour</string>
 		<string>Minute</string>
 		<string>Seconds</string>
@@ -303,10 +377,10 @@
 	<array>
 		<string>*.fmfn</string>
 	</array>
-	
+
 	<!-- Specify a comment-out string: -->
 	<key>BBLMCommentLineDefault</key>   <string>#</string>
-	
+
 	<!-- You must specify the character set for
              keywords and identifiers. Substitute your own:  -->
 	<key>Language Features</key>
@@ -325,6 +399,6 @@
 		<key>Close Statement Blocks</key>   <string>)</string>
 		<key>Open Statement Blocks</key>    <string>[</string>
 		<key>Close Statement Blocks</key>   <string>]</string>
-	</dict> 
+	</dict>
 </dict>
 </plist>

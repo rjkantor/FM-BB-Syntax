@@ -1,0 +1,1 @@
+GetNextSerialValue ( "#selstart#fileName#selend#" ; #selstart#fieldName#selend# )

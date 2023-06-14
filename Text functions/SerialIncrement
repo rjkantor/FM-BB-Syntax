@@ -1,0 +1,1 @@
+SerialIncrement ( #selstart#text#selend# ; #selstart#incrementBy#selend# )

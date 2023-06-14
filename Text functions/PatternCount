@@ -1,0 +1,1 @@
+PatternCount ( #selstart#text#selend# ; #selstart#searchString#selend# )

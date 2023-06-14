@@ -1,0 +1,1 @@
+If ( #selstart#test#selend# ; #selstart#result1#selend# #selstart#{; result2 }#selend# )

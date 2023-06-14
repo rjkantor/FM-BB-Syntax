@@ -1,0 +1,1 @@
+TextColorRemove ( #selstart#text#selend# #selstart#{; RGB( red ; green ; blue )}#selend# )

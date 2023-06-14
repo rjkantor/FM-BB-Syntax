@@ -1,0 +1,1 @@
+SortValues ( #selstart#values#selend# #selstart#{; datatype ; locale }#selend# )

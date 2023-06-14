@@ -1,1 +1,0 @@
-﻿Mod (  #selstart#number#selend# ;  #selstart#divisor#selend# ) 

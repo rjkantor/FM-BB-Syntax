@@ -1,0 +1,1 @@
+GetSensor ( #selstart#sensorName#selend# #selstart#{; option1 ; option2 }#selend# )

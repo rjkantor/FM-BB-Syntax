@@ -1,0 +1,1 @@
+SetPrecision ( #selstart#expression#selend# ; #selstart#precision#selend# )

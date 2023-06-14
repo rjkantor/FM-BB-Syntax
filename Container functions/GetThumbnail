@@ -1,0 +1,1 @@
+GetThumbnail ( #selstart#field#selend# ; #selstart#width#selend# ; #selstart#height#selend# )

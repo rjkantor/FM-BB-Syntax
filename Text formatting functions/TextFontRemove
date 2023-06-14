@@ -1,0 +1,1 @@
+TextFontRemove ( #selstart#text#selend# #selstart#{; fontToRemove }#selend# )

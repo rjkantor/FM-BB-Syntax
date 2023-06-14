@@ -1,0 +1,1 @@
+GetNthRecord ( #selstart#fieldName#selend# ; #selstart#recordNumber#selend# )

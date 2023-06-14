@@ -1,0 +1,1 @@
+LookupNext ( #selstart#sourceField#selend# ; #selstart#lower/higherFlag#selend# )

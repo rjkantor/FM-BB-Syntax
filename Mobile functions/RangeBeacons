@@ -1,0 +1,1 @@
+RangeBeacons ( #selstart#UUID#selend# #selstart#{; timeout ; major ; minor }#selend# )

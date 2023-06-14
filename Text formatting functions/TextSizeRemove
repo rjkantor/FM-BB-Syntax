@@ -1,0 +1,1 @@
+TextSizeRemove ( #selstart#text#selend# #selstart#{; sizeToRemove }#selend# )
