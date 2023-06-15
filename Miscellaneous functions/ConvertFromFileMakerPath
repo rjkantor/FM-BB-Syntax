@@ -1,1 +1,1 @@
-ConvertFromFileMakerPath
+ConvertFromFileMakerPath ( #selstart#filemakerPath#selend# ; #selstart#format#selend# )

@@ -1,1 +1,1 @@
-GetLiveText
+GetLiveText ( #selstart#container#selend# ; #selstart#language#selend# )
