@@ -1,0 +1,1 @@
+Choose ( #selstart#test#selend# ; #selstart#result0#selend# #selstart#{; result1 ; result2...}#selend# )

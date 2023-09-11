@@ -1,0 +1,1 @@
+Let ( #selstart#{[} var1 = expression1#selend# #selstart#{; var2 = expression2...]} ; calculation#selend# )

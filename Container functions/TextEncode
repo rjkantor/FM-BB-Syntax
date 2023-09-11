@@ -1,0 +1,1 @@
+TextEncode ( #selstart#text#selend# ; #selstart#encoding#selend# ; #selstart#lineEndings#selend# )

@@ -1,0 +1,1 @@
+TrimAll ( #selstart#text#selend# ; #selstart#trimSpaces#selend# ; #selstart#trimType#selend# )

@@ -1,0 +1,1 @@
+While ( #selstart#[ initialVariable ]#selend# ; #selstart#condition#selend# ; #selstart#[ logic ]#selend# ; #selstart#result#selend# )

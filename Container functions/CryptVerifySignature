@@ -1,0 +1,1 @@
+CryptVerifySignature ( #selstart#data#selend# ; #selstart#algorithm#selend# ; #selstart#publicRSAKey#selend# ; #selstart#signature#selend# )

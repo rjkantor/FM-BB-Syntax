@@ -1,0 +1,1 @@
+HexDecode ( #selstart#data#selend# #selstart#{; fileNameWithExtension }#selend# )
